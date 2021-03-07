@@ -57,9 +57,10 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-### DAY1
+### DAY1 : Study of components of RISC-V based picoSoC
 
 
+Here are some slides from Day1 Lessons:
 ![D1_SK1_1](https://user-images.githubusercontent.com/80053265/110242838-d10f1c00-7f7d-11eb-866f-f64b1e3c6cfa.PNG)
 ![D1_SK1_2](https://user-images.githubusercontent.com/80053265/110243062-cef98d00-7f7e-11eb-8072-c78c160c459c.PNG)
 
@@ -107,9 +108,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-#### DAY2
 
 
+#### DAY2 : Chip planning and introduction to foundry library cells.
+
+
+Here are some slides from Day2 Lessons:
 ![D2SK3_1](https://user-images.githubusercontent.com/80053265/110245026-8eead800-7f87-11eb-915b-ffa707ba1e8f.PNG)
 ![D2SS8](https://user-images.githubusercontent.com/80053265/110245028-97dba980-7f87-11eb-8d10-a7167610f473.PNG)
 
@@ -136,9 +140,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-##### DAY3
 
 
+##### DAY3 : SPICE Simulation and CMOS fabrication Process.
+
+
+Here are some slides from Day3 Lessons:
 ![D3_SK3_1](https://user-images.githubusercontent.com/80053265/110245208-3ec04580-7f88-11eb-8290-0337573e104e.PNG)
 ![D3_SK3_2](https://user-images.githubusercontent.com/80053265/110245214-4253cc80-7f88-11eb-955e-b221645c22aa.PNG)
 ![D3_SK4_1](https://user-images.githubusercontent.com/80053265/110245223-467fea00-7f88-11eb-84e8-c48362d8bb21.PNG)
@@ -201,9 +208,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### DAY4
 
 
+###### DAY4 : Timing Analysis and Clock Tree Synthesis
+
+
+Here are some slides from Day4 Lessons:
 ![D4_SK3_2](https://user-images.githubusercontent.com/80053265/110245652-23eed080-7f8a-11eb-80bc-fedb9d8da1a7.PNG)
 ![D4_SK3_3](https://user-images.githubusercontent.com/80053265/110245653-26e9c100-7f8a-11eb-839e-face47761f99.PNG)
 
@@ -232,9 +242,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### DAY5
 
 
+###### DAY5 : RTL2GDS Tutorial.
+
+
+Here are some slides from Day5 Lessons:
 ![D5_SK1](https://user-images.githubusercontent.com/80053265/110245809-c9a23f80-7f8a-11eb-8ef0-4b0dd8497d53.PNG)
 ![D5_SK1_2](https://user-images.githubusercontent.com/80053265/110245814-cd35c680-7f8a-11eb-8bb1-1ef1c339ae0a.PNG)
 
@@ -253,3 +266,8 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
   * log/post_sta.log
 ![d5_l4](https://user-images.githubusercontent.com/80053265/110245828-d9ba1f00-7f8a-11eb-819a-ff61be7c12a4.PNG)
+
+
+
+###### Acknowledgements:
+  * Kunal Ghosh, Co-founder(VSD Corp. Pvt.Ltd)
