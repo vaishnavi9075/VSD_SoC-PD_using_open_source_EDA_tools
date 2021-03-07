@@ -67,40 +67,40 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Labs1
 
 
--type a command “yosys” to open ‘yosys open synthesis tool’.
+  * type a command “yosys” to open ‘yosys open synthesis tool’.
 ![d1_l1](https://user-images.githubusercontent.com/80053265/110243135-1e3fbd80-7f7f-11eb-989e-796940441018.PNG)
 
-Type "which sta" to see the ‘sta tool’s’ directory.
-git clone https://github.com/kunalg123/vsdflow.git
-command to clone the vsdflow
+  * Type "which sta" to see the ‘sta tool’s’ directory.
+  * git clone https://github.com/kunalg123/vsdflow.git.
+  * command to clone the vsdflow.
 ![lab2 (2)](https://user-images.githubusercontent.com/80053265/110243265-a3c36d80-7f7f-11eb-941b-a1b8a84391b0.PNG)
 
-cd vsdflow
-./vsdflow spi_slave_design_details.csv
-ls -ltr outdir_spi_slave/
-ls -ltr outdir_spi_slave | wc
-and here can see the total created files
+  * cd vsdflow
+  * ./vsdflow spi_slave_design_details.csv
+  * ls -ltr outdir_spi_slave/
+  * ls -ltr outdir_spi_slave | wc
+  * and here can see the total created files
 ![lab4](https://user-images.githubusercontent.com/80053265/110243311-c3f32c80-7f7f-11eb-8fe5-3a1b8bccc012.PNG)
 
-cd outdir_spi_slave
-qflow display spi_slave
-It will open 2 windows "layout1" and "tkcon"
-On "tkcon" window, type "box".
-And we can see dimensions of the box we selected.
+  * cd outdir_spi_slave
+  * qflow display spi_slave
+  * It will open 2 windows "layout1" and "tkcon"
+  * On "tkcon" window, type "box".
+  * And we can see dimensions of the box we selected.
 ![d1_l2](https://user-images.githubusercontent.com/80053265/110247391-189fa300-7f92-11eb-82d1-4af1e0d33c03.PNG)
 
-cd
-cd vsdflow
-mkdir my_picorv32
-cd my_picorv32
-mkdir source synthesis layout
-cp ~/vsdflow/verilog/picorv32.v source/.
-qflow gui &
-it will open qflow for synthesis 
-and the settings below makes our picoRV32 module to be synthesized.
-Technology = osu018
-Verilog source file : picorv32.v
-Verilog module : picorv32
+  * cd
+  * cd vsdflow
+  * mkdir my_picorv32
+  * cd my_picorv32
+  * mkdir source synthesis layout
+  * cp ~/vsdflow/verilog/picorv32.v source/.
+  * qflow gui &
+  * it will open qflow for synthesis 
+  * and the settings below makes our picoRV32 module to be synthesized.
+  * Technology = osu018
+  * Verilog source file : picorv32.v
+  * Verilog module : picorv32
 ![lab5](https://user-images.githubusercontent.com/80053265/110243316-c8b7e080-7f7f-11eb-9f5e-5a4e4cc1504a.PNG)
 
 
