@@ -56,12 +56,16 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Labs
 
 
+
 ### DAY1
+
 
 ![D1_SK1_1](https://user-images.githubusercontent.com/80053265/110242838-d10f1c00-7f7d-11eb-866f-f64b1e3c6cfa.PNG)
 ![D1_SK1_2](https://user-images.githubusercontent.com/80053265/110243062-cef98d00-7f7e-11eb-8072-c78c160c459c.PNG)
 
+
 * Labs1
+
 
 ![d1_l1](https://user-images.githubusercontent.com/80053265/110243135-1e3fbd80-7f7f-11eb-989e-796940441018.PNG)
 ![d1_l2](https://user-images.githubusercontent.com/80053265/110243154-31528d80-7f7f-11eb-8abe-a2e940cd34dc.PNG)
@@ -70,25 +74,33 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 ![lab5](https://user-images.githubusercontent.com/80053265/110243316-c8b7e080-7f7f-11eb-9f5e-5a4e4cc1504a.PNG)
 
 
+
 #### DAY2
+
 
 ![D2SK3_1](https://user-images.githubusercontent.com/80053265/110245026-8eead800-7f87-11eb-915b-ffa707ba1e8f.PNG)
 ![D2SS8](https://user-images.githubusercontent.com/80053265/110245028-97dba980-7f87-11eb-8d10-a7167610f473.PNG)
 
+
 * Labs2
+
 
 ![D2_L1](https://user-images.githubusercontent.com/80053265/110245052-b772d200-7f87-11eb-87f4-df8e554d187b.PNG)
 ![D2_L3](https://user-images.githubusercontent.com/80053265/110245062-bb9eef80-7f87-11eb-8a76-b3e5c2470e1a.PNG)
 ![D2_L6](https://user-images.githubusercontent.com/80053265/110245069-c8bbde80-7f87-11eb-8200-101bce51a8a1.PNG)
 
 
+
 ##### DAY3
+
 
 ![D3_SK3_1](https://user-images.githubusercontent.com/80053265/110245208-3ec04580-7f88-11eb-8290-0337573e104e.PNG)
 ![D3_SK3_2](https://user-images.githubusercontent.com/80053265/110245214-4253cc80-7f88-11eb-955e-b221645c22aa.PNG)
 ![D3_SK4_1](https://user-images.githubusercontent.com/80053265/110245223-467fea00-7f88-11eb-84e8-c48362d8bb21.PNG)
 
+
 * Labs3
+
 
 ![D3_L1](https://user-images.githubusercontent.com/80053265/110245384-d6be2f00-7f88-11eb-9c8c-a4e5d9365a21.PNG)
 ![d3_l3](https://user-images.githubusercontent.com/80053265/110245387-da51b600-7f88-11eb-8142-a48f4da54a17.PNG)
@@ -100,12 +112,16 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 ![d3_l9](https://user-images.githubusercontent.com/80053265/110245415-040add00-7f89-11eb-827d-6e3eaf2676f3.PNG)
 
 
+
 ###### DAY4
+
 
 ![D4_SK3_2](https://user-images.githubusercontent.com/80053265/110245652-23eed080-7f8a-11eb-80bc-fedb9d8da1a7.PNG)
 ![D4_SK3_3](https://user-images.githubusercontent.com/80053265/110245653-26e9c100-7f8a-11eb-839e-face47761f99.PNG)
 
+
 * Labs4
+
 
 ![d4_l1](https://user-images.githubusercontent.com/80053265/110245707-62848b00-7f8a-11eb-9b18-1161f0a4683d.PNG)
 ![d4_sk1_l1](https://user-images.githubusercontent.com/80053265/110245722-729c6a80-7f8a-11eb-8d4f-a9345e7a8d52.PNG)
@@ -117,12 +133,16 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 ![d4_l10_err](https://user-images.githubusercontent.com/80053265/110245778-a6779000-7f8a-11eb-829e-93f81e326b12.PNG)
 
 
+
 ###### DAY5
+
 
 ![D5_SK1](https://user-images.githubusercontent.com/80053265/110245809-c9a23f80-7f8a-11eb-8ef0-4b0dd8497d53.PNG)
 ![D5_SK1_2](https://user-images.githubusercontent.com/80053265/110245814-cd35c680-7f8a-11eb-8bb1-1ef1c339ae0a.PNG)
 
+
 * Labs5
+
 
 ![d5_l1](https://user-images.githubusercontent.com/80053265/110245817-d030b700-7f8a-11eb-9bd1-35b52569d33f.PNG)
 ![d5_l2](https://user-images.githubusercontent.com/80053265/110245820-d2931100-7f8a-11eb-8a25-2fb226f386ac.PNG)
