@@ -4,8 +4,13 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 *Here are some sources used in this workshop:
 
 1.YOSYS : Synthesis
+
 2.Graywolf :Placement
+
 3.Qrouter : Routing
+
 4.Qflow : RTL2GDS integration
+
 5.Netgen : LVS
+
 6.OpenSTA & Opentimer : Prelayout & postlayout Static Timing Analysis.
