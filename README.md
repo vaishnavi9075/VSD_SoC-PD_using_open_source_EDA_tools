@@ -59,4 +59,4 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 ### DAY1
 ![D1_SK1_1](https://user-images.githubusercontent.com/80053265/110242838-d10f1c00-7f7d-11eb-866f-f64b1e3c6cfa.PNG)
 ![D1_SK1_2](https://user-images.githubusercontent.com/80053265/110243062-cef98d00-7f7e-11eb-8072-c78c160c459c.PNG)
-![D1_SK2_1](https://user-images.githubusercontent.com/80053265/110243082-e3d62080-7f7e-11eb-8f53-471fcfac86e7.PNG)
+
