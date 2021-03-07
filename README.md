@@ -102,6 +102,8 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
   * Verilog source file : picorv32.v
   * Verilog module : picorv32
 ![lab5](https://user-images.githubusercontent.com/80053265/110243316-c8b7e080-7f7f-11eb-9f5e-5a4e4cc1504a.PNG)
+![lab6](https://user-images.githubusercontent.com/80053265/110247942-a9777e00-7f94-11eb-9ca3-3db223af1a69.PNG)
+
 
 
 
@@ -113,8 +115,21 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 * Labs2
+  * cd
+  * cd vsdflow/my_picorv32
+  * qflow display picorv32 &
+  * This will open layout and tkcon window In the layout window, select whole chip using below steps
+  * Take cursor to bottom left
+  * Left mouse click
+  * Take cursor to top right
+  * Right mouse click
+  * Press Shift+i
+  * This will select the whole layout Now in tkcon window, type below command
+  * box
+  * And we can see dimensions of the box we selected.
+![d1_l2](https://user-images.githubusercontent.com/80053265/110247391-189fa300-7f92-11eb-82d1-4af1e0d33c03.PNG)
 
-
+  * Here are the outputs shown when we go further for synthesis and placement process.
 ![D2_L1](https://user-images.githubusercontent.com/80053265/110245052-b772d200-7f87-11eb-87f4-df8e554d187b.PNG)
 ![D2_L3](https://user-images.githubusercontent.com/80053265/110245062-bb9eef80-7f87-11eb-8a76-b3e5c2470e1a.PNG)
 ![D2_L6](https://user-images.githubusercontent.com/80053265/110245069-c8bbde80-7f87-11eb-8200-101bce51a8a1.PNG)
@@ -131,12 +146,55 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 * Labs3
 
-
+  * cd
+  * git clone https://github.com/kunalg123/ngspice_labs.git
+  * above is the command to clone ngspice labs
+  * cd ngspice_labs
+  * cat inv.spice
+  * it gives us model description
 ![D3_L1](https://user-images.githubusercontent.com/80053265/110245384-d6be2f00-7f88-11eb-9c8c-a4e5d9365a21.PNG)
+
+  * cd
+  * cd ngspice_labs
+  * ngspice inv.spice
+  * There will be terminal like below
+  * ngspice 1 ->
+  * On the above ngspice terminal, type below commands
+  * run
+  * setplot dc1
+  * plot out in
+  * This will open a plot with CMOS VTC and Blue 45 degree line
+  * Click on the intersection of Blue line and CMOS VTC.
+  * And we get the ‘Switching Threshold- Vm’.
 ![d3_l3](https://user-images.githubusercontent.com/80053265/110245387-da51b600-7f88-11eb-8142-a48f4da54a17.PNG)
+
+  * Type below commands for transient simulations
+  * ngspice inv_tran.spice
+  * ngspice 1 -> run
+  * ngspice 1 -> setplot tran1
+  * ngspice 1 -> plot out in
 ![d3_l4](https://user-images.githubusercontent.com/80053265/110245389-dde53d00-7f88-11eb-9d63-7888b3dbb4a7.PNG)
+
+  * Open file called "inv_tran.spice" using below command
+  * leafpad inv_tran.spice
+  * Change PMOS width to 0.75u, Save and Close
+  * and doing the same process as above will give us transient simulations and find the difference
 ![d3_l5](https://user-images.githubusercontent.com/80053265/110245403-f0f80d00-7f88-11eb-8728-3c60d3f17b5b.PNG)
+
+  * cd
+  * cd ngspice_labs
+  * magic -T min2.tech
+  * This will open magic layout window and tkcon window
+  * Go to tkcon window and type below command
+  * source draw_fn.tcl
+  * and we see output as below.
 ![d3_l6](https://user-images.githubusercontent.com/80053265/110245407-f7868480-7f88-11eb-9ddb-6f402cfc152d.PNG)
+
+
+  * cd
+  * cd ngspice_labs
+  * magic -T min2.tech fn_postlayout.mag &
+  * it will create post layout
 ![d3_l7](https://user-images.githubusercontent.com/80053265/110245411-fbb2a200-7f88-11eb-9b1e-b0ece2120b88.PNG)
 ![d3_l8](https://user-images.githubusercontent.com/80053265/110245412-ffdebf80-7f88-11eb-9a4c-79464f5d8104.PNG)
 ![d3_l9](https://user-images.githubusercontent.com/80053265/110245415-040add00-7f89-11eb-827d-6e3eaf2676f3.PNG)
@@ -153,8 +211,18 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Labs4
 
 
+  * cd
+  * git clone https://github.com/kunalg123/ngspice_labs
+  * cd ngspice_labs
+  * cat inv_tran.spice
+  * here we will compute rise and fall delay.
+  * ngspice inv_tran.spice
+  * output delay and rise delay has been computed here.
 ![d4_l1](https://user-images.githubusercontent.com/80053265/110245707-62848b00-7f8a-11eb-9b18-1161f0a4683d.PNG)
 ![d4_sk1_l1](https://user-images.githubusercontent.com/80053265/110245722-729c6a80-7f8a-11eb-8d4f-a9345e7a8d52.PNG)
+
+  * /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+  * The files is the given directory has been opened by “vim/leafpad/less” commands
 ![d4_l3](https://user-images.githubusercontent.com/80053265/110245743-7f20c300-7f8a-11eb-983b-f66d5c5b2a67.PNG)
 ![d4_l6](https://user-images.githubusercontent.com/80053265/110245765-98297400-7f8a-11eb-998e-b9b2a8bf5a57.PNG)
 ![d4_l7](https://user-images.githubusercontent.com/80053265/110245770-9b246480-7f8a-11eb-9caa-c9a4dea0aa9d.PNG)
@@ -173,8 +241,15 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 * Labs5
 
-
+  * cd
+  * cd vsdflow/my_picorv32
+  * qflow route picorv32
 ![d5_l1](https://user-images.githubusercontent.com/80053265/110245817-d030b700-7f8a-11eb-9bd1-35b52569d33f.PNG)
-![d5_l2](https://user-images.githubusercontent.com/80053265/110245820-d2931100-7f8a-11eb-8a25-2fb226f386ac.PNG)
+
+  * qflow sta picorv32
+  * qflow backanno picorv32
+  * leafpad log/sta.log
 ![d5_l3](https://user-images.githubusercontent.com/80053265/110245823-d757c500-7f8a-11eb-890f-3754f1d2c88d.PNG)
+
+  * log/post_sta.log
 ![d5_l4](https://user-images.githubusercontent.com/80053265/110245828-d9ba1f00-7f8a-11eb-819a-ff61be7c12a4.PNG)
