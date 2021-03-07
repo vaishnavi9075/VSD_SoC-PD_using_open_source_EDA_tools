@@ -11,11 +11,13 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 4.Qflow : RTL2GDS integration.
 
-5.Netgen : LVS.
+5.MAGIC : VLSI Layout tool.
 
-6.OpenSTA & Opentimer : Prelayout & postlayout Static Timing Analysis.
+6.Netgen : LVS.
 
-## Table of Contents
+7.OpenSTA & Opentimer : Prelayout & postlayout Static Timing Analysis.
+
+## Topics covered in Wrokshop
 
 1.Day1
 
