@@ -57,4 +57,4 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 ### DAY1
-![Uploading D1_SK1_1.PNG…]()
+
