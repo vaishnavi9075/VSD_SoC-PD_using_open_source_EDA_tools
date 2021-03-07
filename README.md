@@ -19,6 +19,11 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 1.Day1
 
+* Introduction to QFN-48 packages, Chips, Pads, Core, Die & IP's.
+* Introduction to RISC-V, PiCoRV32 & PicoSoc.
+* Introduction to IC design component.
+* Labs
+
 2.Day2
 
 3.Day3
