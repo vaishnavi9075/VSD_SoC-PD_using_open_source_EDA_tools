@@ -20,7 +20,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-## DAY1 : Study of components of RISC-V based picoSoC
+# DAY1 : Study of components of RISC-V based picoSoC
 
 
 * Theory :
@@ -36,7 +36,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-** Labs1
+# Labs1
 
 
   -> type a command “yosys” to open ‘yosys open synthesis tool’.
