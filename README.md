@@ -20,7 +20,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-# DAY1 : Study of components of RISC-V based picoSoC
+## DAY1 : Study of components of RISC-V based picoSoC
 
 
 * Theory :
@@ -36,7 +36,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-# Labs1
+## Labs1
 
 
   -> type a command “yosys” to open ‘yosys open synthesis tool’.
@@ -102,7 +102,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-#### DAY2 : Chip planning and introduction to foundry library cells.
+## DAY2 : Chip planning and introduction to foundry library cells.
 
 
 
@@ -124,7 +124,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-##### Labs2
+## Labs2
   
   -> cd vsdflow/my_picorv32
   
@@ -146,7 +146,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### DAY3 : SPICE Simulation and CMOS fabrication Process.
+## DAY3 : SPICE Simulation and CMOS fabrication Process.
 
 
 
@@ -167,7 +167,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### Labs3
+## Labs3
 
 
   -> cd
@@ -254,7 +254,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### DAY4 : Timing Analysis and Clock Tree Synthesis
+## DAY4 : Timing Analysis and Clock Tree Synthesis
 
 
 * Theory :
@@ -271,7 +271,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### Labs4
+## Labs4
 
 
   -> cd
@@ -306,7 +306,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### DAY5 : RTL2GDS Tutorial.
+## DAY5 : RTL2GDS Tutorial.
 
 
 * Theory :
@@ -324,7 +324,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-###### Labs5
+## Labs5
 
 
   -> cd
