@@ -26,7 +26,9 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Theory :
 1. Introduction to QFN-48 packages, Chips, Pads, Core, Die & IP's.
 2. Introduction to RISC-V, PiCoRV32 & PicoSoc.
-3. Introduction to IC design component.
+3. RavenSoC & Raven full chip Design overview.
+4. Introduction to IC design component & Open Source EDA Tools.
+5. Test open source EDA tools using sample design (spi-slave) & VSD flow.
 
 ![D1_SK1_1](https://user-images.githubusercontent.com/80053265/110242838-d10f1c00-7f7d-11eb-866f-f64b1e3c6cfa.PNG)
 ![D1_SK1_2](https://user-images.githubusercontent.com/80053265/110243062-cef98d00-7f7e-11eb-8072-c78c160c459c.PNG)
@@ -92,10 +94,16 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 * Theory :
-1. Concepts of Utilization Factor & Aspect Ratio, Preplaced Cells, Decoupling Capacitors, AND Power Planning, Pin Placement.
-2. Netlist Binding, Placement Optimization And Logic Design Flow.
-3. Cell Design Flow, Circuit Design, Layout Design And Characterization Flow.
-4. Timing Chracterization and Propagation Delay.
+1. Concepts of Utilization Factor & Aspect Ratio. 
+2. Concept of Preplaced Cells, Decoupling Capacitors, AND Power Planning.
+3. Pin placement & logical cell placement blockage.
+4. Netlist Binding & initial place design.
+5. Placement Optimization using estimated wire-length & capacitance.
+6. Need for libraries And Logic Design Flow.
+7. Cell Design Flow.
+8. Circuit Design.
+9. Layout Design And Characterization Flow.
+10.Timing Chracterization and Propagation Delay.
 
 ![D2SK3_1](https://user-images.githubusercontent.com/80053265/110245026-8eead800-7f87-11eb-915b-ffa707ba1e8f.PNG)
 ![D2SS8](https://user-images.githubusercontent.com/80053265/110245028-97dba980-7f87-11eb-8d10-a7167610f473.PNG)
@@ -125,10 +133,14 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 * Theory :
-1. SPICE Simulation.
-2. Layout using Euler's Path and Stick Diagram.
-3. Dimentioning, MAGIC Scripts and Post layout ngSPICE.
-4. 16-MASK CMOS Process.
+1. SPICE Deck creation for CMOS inverter.
+2. SPICE Simulation for CMOS inverter.
+3. Static & Dyanmic Simulation of CMOS.
+4. Layout using Euler's Path and Stick Diagram.
+5. Script to create layout in MAGIC.
+6. Final layout & input/output labelling.
+7.  Post layout ngspice.
+8. 16-MASK CMOS Process.
 
 ![D3_SK3_1](https://user-images.githubusercontent.com/80053265/110245208-3ec04580-7f88-11eb-8290-0337573e104e.PNG)
 ![D3_SK3_2](https://user-images.githubusercontent.com/80053265/110245214-4253cc80-7f88-11eb-955e-b221645c22aa.PNG)
@@ -218,8 +230,10 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Theory :
 1. Introduction to Delay Tables.
 2. SETUP Timing Analysis.
-3. Clock Tree Routing & Buffering using H-tree Algorithm.
-4. HOLD Timing Analysis.
+3. Introduction to clock jitter & uncertainty.
+4. Clock Tree Routing & Buffering using H-tree Algorithm.
+5. Clock net shielding.
+6. HOLD Timing Analysis using real clocks.
 
 ![D4_SK3_2](https://user-images.githubusercontent.com/80053265/110245652-23eed080-7f8a-11eb-80bc-fedb9d8da1a7.PNG)
 ![D4_SK3_3](https://user-images.githubusercontent.com/80053265/110245653-26e9c100-7f8a-11eb-839e-face47761f99.PNG)
@@ -263,10 +277,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 * Theory :
 1. Introduction to MAZE Routing- lee's algorithm.
-2. DRC's.
+2. DRCs (Design Rule Check).
 3. Introduction to IEEE 1481- 1999 SPEF Format.
-4. Placement & Pre-layout STA.
-5. Routing & Post-layout STA.
+4. SPEF file for NET.
+5. Few tips on pin placement & floorplanning.
+6. Placement & Pre-layout STA.
+7. Routing & Post-layout STA.
 
 ![D5_SK1](https://user-images.githubusercontent.com/80053265/110245809-c9a23f80-7f8a-11eb-8ef0-4b0dd8497d53.PNG)
 ![D5_SK1_2](https://user-images.githubusercontent.com/80053265/110245814-cd35c680-7f8a-11eb-8bb1-1ef1c339ae0a.PNG)
