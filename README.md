@@ -17,50 +17,17 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 7.OpenSTA & Opentimer : Prelayout & postlayout Static Timing Analysis.
 
-## Topics covered in Wrokshop
-
-1.Day1
-
-* Introduction to QFN-48 packages, Chips, Pads, Core, Die & IP's.
-* Introduction to RISC-V, PiCoRV32 & PicoSoc.
-* Introduction to IC design component.
-* Labs
-
-2.Day2
-* Concepts of Utilization Factor & Aspect Ratio, Preplaced Cells, Decoupling Capacitors, AND Power Planning, Pin Placement.
-* Netlist Binding, Placement Optimization And Logic Design Flow.
-* Cell Design Flow, Circuit Design, Layout Design And Characterization Flow.
-* Timing Chracterization and Propagation Delay.
-* Labs
-
-3.Day3
-* SPICE Simulation.
-* Layout using Euler's Path and Stick Diagram.
-* Dimentioning, MAGIC Scripts and Post layout ngSPICE.
-* 16-MASK CMOS Process.
-* Labs
-
-4.Day4
-* Introduction to Delay Tables.
-* SETUP Timing Analysis.
-* Clock Tree Routing & Buffering using H-tree Algorithm.
-* HOLD Timing Analysis.
-* Labs
-
-5.Day5
-* Introduction to MAZE Routing- lee's algorithm.
-* DRC's.
-* Introduction to IEEE 1481- 1999 SPEF Format.
-* Placement & Pre-layout STA.
-* Routing & Post-layout STA.
-* Labs
 
 
 
-### DAY1 : Study of components of RISC-V based picoSoC
+## DAY1 : Study of components of RISC-V based picoSoC
 
 
-Here are some slides from Day1 Lessons:
+* Theory :
+1. Introduction to QFN-48 packages, Chips, Pads, Core, Die & IP's.
+2. Introduction to RISC-V, PiCoRV32 & PicoSoc.
+3. Introduction to IC design component.
+
 ![D1_SK1_1](https://user-images.githubusercontent.com/80053265/110242838-d10f1c00-7f7d-11eb-866f-f64b1e3c6cfa.PNG)
 ![D1_SK1_2](https://user-images.githubusercontent.com/80053265/110243062-cef98d00-7f7e-11eb-8072-c78c160c459c.PNG)
 
@@ -110,10 +77,15 @@ Here are some slides from Day1 Lessons:
 
 
 
-#### DAY2 : Chip planning and introduction to foundry library cells.
+### DAY2 : Chip planning and introduction to foundry library cells.
 
 
-Here are some slides from Day2 Lessons:
+* Theory :
+1. Concepts of Utilization Factor & Aspect Ratio, Preplaced Cells, Decoupling Capacitors, AND Power Planning, Pin Placement.
+2. Netlist Binding, Placement Optimization And Logic Design Flow.
+3. Cell Design Flow, Circuit Design, Layout Design And Characterization Flow.
+4. Timing Chracterization and Propagation Delay.
+
 ![D2SK3_1](https://user-images.githubusercontent.com/80053265/110245026-8eead800-7f87-11eb-915b-ffa707ba1e8f.PNG)
 ![D2SS8](https://user-images.githubusercontent.com/80053265/110245028-97dba980-7f87-11eb-8d10-a7167610f473.PNG)
 
@@ -142,10 +114,15 @@ Here are some slides from Day2 Lessons:
 
 
 
-##### DAY3 : SPICE Simulation and CMOS fabrication Process.
+#### DAY3 : SPICE Simulation and CMOS fabrication Process.
 
 
-Here are some slides from Day3 Lessons:
+* Theory :
+1. SPICE Simulation.
+2. Layout using Euler's Path and Stick Diagram.
+3. Dimentioning, MAGIC Scripts and Post layout ngSPICE.
+4. 16-MASK CMOS Process.
+
 ![D3_SK3_1](https://user-images.githubusercontent.com/80053265/110245208-3ec04580-7f88-11eb-8290-0337573e104e.PNG)
 ![D3_SK3_2](https://user-images.githubusercontent.com/80053265/110245214-4253cc80-7f88-11eb-955e-b221645c22aa.PNG)
 ![D3_SK4_1](https://user-images.githubusercontent.com/80053265/110245223-467fea00-7f88-11eb-84e8-c48362d8bb21.PNG)
@@ -210,10 +187,15 @@ Here are some slides from Day3 Lessons:
 
 
 
-###### DAY4 : Timing Analysis and Clock Tree Synthesis
+##### DAY4 : Timing Analysis and Clock Tree Synthesis
 
 
-Here are some slides from Day4 Lessons:
+* Theory :
+1. Introduction to Delay Tables.
+2. SETUP Timing Analysis.
+3. Clock Tree Routing & Buffering using H-tree Algorithm.
+4. HOLD Timing Analysis.
+
 ![D4_SK3_2](https://user-images.githubusercontent.com/80053265/110245652-23eed080-7f8a-11eb-80bc-fedb9d8da1a7.PNG)
 ![D4_SK3_3](https://user-images.githubusercontent.com/80053265/110245653-26e9c100-7f8a-11eb-839e-face47761f99.PNG)
 
@@ -244,10 +226,16 @@ Here are some slides from Day4 Lessons:
 
 
 
-###### DAY5 : RTL2GDS Tutorial.
+##### DAY5 : RTL2GDS Tutorial.
 
 
-Here are some slides from Day5 Lessons:
+* Theory :
+1. Introduction to MAZE Routing- lee's algorithm.
+2. DRC's.
+3. Introduction to IEEE 1481- 1999 SPEF Format.
+4. Placement & Pre-layout STA.
+5. Routing & Post-layout STA.
+
 ![D5_SK1](https://user-images.githubusercontent.com/80053265/110245809-c9a23f80-7f8a-11eb-8ef0-4b0dd8497d53.PNG)
 ![D5_SK1_2](https://user-images.githubusercontent.com/80053265/110245814-cd35c680-7f8a-11eb-8bb1-1ef1c339ae0a.PNG)
 
@@ -269,5 +257,5 @@ Here are some slides from Day5 Lessons:
 
 
 
-###### Acknowledgements:
+##### Acknowledgements:
   * Kunal Ghosh, Co-founder(VSD Corp. Pvt.Ltd)
