@@ -1,7 +1,7 @@
 # VSD_SoC-PD_using_open_source_EDA_tools
 This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Design using open source EDA tools' Workshop. The workshop gives me a hands on experience with the EDA tools used in Physical Design.
 
-*Here are some sources used in this workshop:
+* Here are some sources used in this workshop:
 
 1.YOSYS : Synthesis.
 
@@ -35,12 +35,12 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 * Labs1
 
 
-  * type a command “yosys” to open ‘yosys open synthesis tool’.
+  - type a command “yosys” to open ‘yosys open synthesis tool’.
 ![d1_l1](https://user-images.githubusercontent.com/80053265/110243135-1e3fbd80-7f7f-11eb-989e-796940441018.PNG)
 
-  * Type "which sta" to see the ‘sta tool’s’ directory.
-  * git clone https://github.com/kunalg123/vsdflow.git.
-  * command to clone the vsdflow.
+  - Type "which sta" to see the ‘sta tool’s’ directory.
+  - git clone https://github.com/kunalg123/vsdflow.git.
+  - command to clone the vsdflow.
 ![lab2 (2)](https://user-images.githubusercontent.com/80053265/110243265-a3c36d80-7f7f-11eb-941b-a1b8a84391b0.PNG)
 
   * cd vsdflow
