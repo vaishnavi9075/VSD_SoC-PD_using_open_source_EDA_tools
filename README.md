@@ -36,7 +36,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 
 
 
-### Labs1
+** Labs1
 
 
   -> type a command “yosys” to open ‘yosys open synthesis tool’.
