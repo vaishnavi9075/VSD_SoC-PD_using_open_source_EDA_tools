@@ -117,7 +117,7 @@ This repository is to give brief idea about the VSD's 'Beginner Soc/Physical Des
 7. Cell Design Flow.
 8. Circuit Design.
 9. Layout Design And Characterization Flow. 
-10.Timing Chracterization and Propagation Delay.
+10. Timing Chracterization and Propagation Delay.
 
 
 ![D2SK3_1](https://user-images.githubusercontent.com/80053265/110245026-8eead800-7f87-11eb-915b-ffa707ba1e8f.PNG)
